@@ -18,7 +18,7 @@ let Calculator = {
   subtract: () => 1-3,
   multiply: () => 1*3,
   divide: () => 10/5,
-  actionApplyer: (n,arr) => {
+  actionApplyer: function (n,arr) {
     let res = n;
     for(let i=0;i<arr.length;i++) {
       res = arr[i](res);
