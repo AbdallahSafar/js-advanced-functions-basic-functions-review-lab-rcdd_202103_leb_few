@@ -19,10 +19,10 @@ let Calculator = {
   multiply: () => 1*3,
   divide: () => 10/5,
   actionApplyer: function (n,arr) {
-    
+
   }
 }
 
 function actionApplyer(n,arr) {
-  
+
 }
