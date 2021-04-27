@@ -17,9 +17,12 @@ let Calculator = {
   add: () => 1+3,
   subtract: () => 1-3,
   multiply: () => 1*3,
-  divide: () => 10/5
+  divide: () => 10/5,
+  actionApplyer: function (n,arr) {
+    
+  }
 }
 
-const encouragingPromptFunction = wrapAdjective("!!!");
-
-console.log(encouragingPromptFunction("great"));
+function actionApplyer(n,arr) {
+  
+}
