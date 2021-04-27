@@ -14,10 +14,10 @@ function wrapAdjective(adj = "*") {
 }
 
 let Calculator = {
-  add: () => 1+3;
-  substract: () => 1-3;
-  multiply: () => 1*3;
-  divide: () => 10/5;
+  add: () => 1+3,
+  substract: () => 1-3,
+  multiply: () => 1*3,
+  divide: () => 10/5
 }
 
 const encouragingPromptFunction = wrapAdjective("!!!");
