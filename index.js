@@ -15,7 +15,7 @@ function wrapAdjective(adj = "*") {
 
 let Calculator = {
   add: () => 1+3,
-  substract: () => 1-3,
+  subtract: () => 1-3,
   multiply: () => 1*3,
   divide: () => 10/5
 }
