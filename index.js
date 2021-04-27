@@ -18,11 +18,19 @@ let Calculator = {
   subtract: () => 1-3,
   multiply: () => 1*3,
   divide: () => 10/5,
-  actionApplyer: function (n,arr) {
-    let res = n;
-    for(let i=0;i<arr.length;i++) {
-      res = arr[i](res);
-    }
-    return res;
+  // actionApplyer: function (n,arr) {
+  //   let res = n;
+  //   for(let i=0;i<arr.length;i++) {
+  //     res = arr[i](res);
+  //   }
+  //   return res;
+  // }
+}
+
+function actionApplyer(n,arr) {
+  let res = n;
+  for(let i=0;i<arr.length;i++) {
+    res = arr[i](res);
   }
+  return res;
 }
